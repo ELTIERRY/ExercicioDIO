@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kok9rYvu5ZrAaVkOEjUkOKMlzBHyZaj7biJEe1riMw5ObmO+r0h/qUdFQgAOcZXKVnOSJi6BhyllYTx9I0CXQg==",
+  "dgSpecHash": "6epiGzWRWV2wXHIwlG5acD5Cq2bRhGwW28wNt5KfuhyQ+Hyjz85D8H+ororT7f+mPJEHPkDSCZg3LDncwj2W8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MyPC\\Documents\\Projetos C#\\Exercicio.Banco.DIO\\Exercicio.Banco.DIO.csproj",
+  "projectFilePath": "C:\\DIO\\Exercicio.Banco.DIO\\Exercicio.Banco.DIO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

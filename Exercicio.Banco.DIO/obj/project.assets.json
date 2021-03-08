@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MyPC\\Documents\\Projetos C#\\Exercicio.Banco.DIO\\Exercicio.Banco.DIO.csproj",
+      "projectUniqueName": "c:\\DIO\\Exercicio.Banco.DIO\\Exercicio.Banco.DIO.csproj",
       "projectName": "Exercicio.Banco.DIO",
-      "projectPath": "C:\\Users\\MyPC\\Documents\\Projetos C#\\Exercicio.Banco.DIO\\Exercicio.Banco.DIO.csproj",
+      "projectPath": "c:\\DIO\\Exercicio.Banco.DIO\\Exercicio.Banco.DIO.csproj",
       "packagesPath": "C:\\Users\\MyPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MyPC\\Documents\\Projetos C#\\Exercicio.Banco.DIO\\obj\\",
+      "outputPath": "c:\\DIO\\Exercicio.Banco.DIO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MyPC\\AppData\\Roaming\\NuGet\\NuGet.Config",

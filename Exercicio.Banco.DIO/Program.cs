@@ -20,7 +20,7 @@ namespace Exercicio.Banco.DIO
 			                "3- Transferir\n"+
 			                "4- Sacar\n"+
 			                "5- Depositar\n"+
-                            "C- Limpar Tela\n"+
+                            "L- Limpar Tela\n"+
 			                "Ou opção diferente para sair");
             string opcTransacao = Console.ReadLine().ToUpper();                            
 			
@@ -46,12 +46,12 @@ namespace Exercicio.Banco.DIO
                     Console.WriteLine();
 					Depositar();
 					break;
-                case "C":
-					Console.Clear();
+                case "L":
+                    Console.Clear();
 					break;
                 default:
                     Console.WriteLine();
-                    Console.WriteLine("Obrigado por uitlizar nossos serviços. Até logo!");
+                    Console.WriteLine("Obrigado por uitlizar nossos serviços. Até logo!\n");
                     Environment.Exit(0);
                     break;
             }
@@ -102,38 +102,63 @@ namespace Exercicio.Banco.DIO
             Console.Write("Digite o número da conta a ser debitado: ");
             int numContaDeb = int.Parse(Console.ReadLine());
 
-            Console.Write("Digite o valor a ser debitado/creditado: ");
-            double valorDebCred = double.Parse(Console.ReadLine());
-
-            Console.Write("Digite o número da conta a ser creditado: ");
-            int numContaCred = int.Parse(Console.ReadLine());
-
-            if (listBDContas[numContaDeb].Sacar(valorDebCred))
+            if (ValidarConta(numContaDeb))
             {
-                listBDContas[numContaCred].Depositar(valorDebCred);
+                Console.Write("Digite o valor a ser debitado/creditado: ");
+                double valorDebCred = double.Parse(Console.ReadLine());
+
+                Console.Write("Digite o número da conta a ser creditado: ");              
+                int numContaCred = int.Parse(Console.ReadLine());
+                Console.WriteLine();
+
+                if (ValidarConta(numContaCred))
+                {
+                    if (listBDContas[numContaDeb].Sacar(valorDebCred))
+                    {
+                        listBDContas[numContaCred].Depositar(valorDebCred);
+                    }
+                }       
             }
-            
         }
         static void Sacar()
         {
+            
 			Console.Write("Digite o número da conta: ");
 			int numConta = int.Parse(Console.ReadLine());
 
-			Console.Write("Digite o valor a ser debitado: ");
-			double valorSaque = double.Parse(Console.ReadLine());
+            if (ValidarConta(numConta))
+            {
+                Console.WriteLine();
+			    Console.Write("Digite o valor a ser debitado: ");
+			    double valorSaque = double.Parse(Console.ReadLine());
 
-            listBDContas[numConta].Sacar(valorSaque);           
-            
+                listBDContas[numConta].Sacar(valorSaque); 
+            }                   
         }
         static void Depositar()
         {
             Console.Write("Digite o número da conta: ");
             int numConta = int.Parse(Console.ReadLine());
 
-            Console.Write("Digite o valor a ser creditado: ");
-            double valorDeposito = double.Parse(Console.ReadLine());
+            if (ValidarConta(numConta))
+            {
+                Console.Write("Digite o valor a ser creditado: ");
+                double valorDeposito = double.Parse(Console.ReadLine());
 
-            listBDContas[numConta].Depositar(valorDeposito);
+                listBDContas[numConta].Depositar(valorDeposito);
+            }
+        }
+        static bool ValidarConta(int numValConta) //Verifica se existe conta criada
+        {
+            if (numValConta <= listBDContas.Count - 1)
+            {
+                return true;
+            }
+            Console.WriteLine();
+            Console.WriteLine("Transação não concluída");
+            Console.WriteLine("Conta inexistente");
+            return false;
+            //Console.WriteLine($"{ValConta} contas existentes");
         }
     }
 }

@@ -14,3 +14,19 @@ C:\Users\MyPC\Documents\Projetos C#\Exercicio.Banco.DIO\obj\Debug\net5.0\Exercic
 C:\Users\MyPC\Documents\Projetos C#\Exercicio.Banco.DIO\obj\Debug\net5.0\ref\Exercicio.Banco.DIO.dll
 C:\Users\MyPC\Documents\Projetos C#\Exercicio.Banco.DIO\obj\Debug\net5.0\Exercicio.Banco.DIO.pdb
 C:\Users\MyPC\Documents\Projetos C#\Exercicio.Banco.DIO\obj\Debug\net5.0\Exercicio.Banco.DIO.genruntimeconfig.cache
+C:\DIO\Exercicio.Banco.DIO\bin\Debug\net5.0\Exercicio.Banco.DIO.exe
+C:\DIO\Exercicio.Banco.DIO\bin\Debug\net5.0\Exercicio.Banco.DIO.deps.json
+C:\DIO\Exercicio.Banco.DIO\bin\Debug\net5.0\Exercicio.Banco.DIO.runtimeconfig.json
+C:\DIO\Exercicio.Banco.DIO\bin\Debug\net5.0\Exercicio.Banco.DIO.runtimeconfig.dev.json
+C:\DIO\Exercicio.Banco.DIO\bin\Debug\net5.0\Exercicio.Banco.DIO.dll
+C:\DIO\Exercicio.Banco.DIO\bin\Debug\net5.0\ref\Exercicio.Banco.DIO.dll
+C:\DIO\Exercicio.Banco.DIO\bin\Debug\net5.0\Exercicio.Banco.DIO.pdb
+C:\DIO\Exercicio.Banco.DIO\obj\Debug\net5.0\Exercicio.Banco.DIO.csprojAssemblyReference.cache
+C:\DIO\Exercicio.Banco.DIO\obj\Debug\net5.0\Exercicio.Banco.DIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\DIO\Exercicio.Banco.DIO\obj\Debug\net5.0\Exercicio.Banco.DIO.AssemblyInfoInputs.cache
+C:\DIO\Exercicio.Banco.DIO\obj\Debug\net5.0\Exercicio.Banco.DIO.AssemblyInfo.cs
+C:\DIO\Exercicio.Banco.DIO\obj\Debug\net5.0\Exercicio.Banco.DIO.csproj.CoreCompileInputs.cache
+C:\DIO\Exercicio.Banco.DIO\obj\Debug\net5.0\Exercicio.Banco.DIO.dll
+C:\DIO\Exercicio.Banco.DIO\obj\Debug\net5.0\ref\Exercicio.Banco.DIO.dll
+C:\DIO\Exercicio.Banco.DIO\obj\Debug\net5.0\Exercicio.Banco.DIO.pdb
+C:\DIO\Exercicio.Banco.DIO\obj\Debug\net5.0\Exercicio.Banco.DIO.genruntimeconfig.cache

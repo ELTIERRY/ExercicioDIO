@@ -26,7 +26,8 @@ namespace Exercicio.Banco.DIO
 		public bool Sacar(double valorSaque)
 		{
             if (valorSaque > (this.Saldo + this.Credito))
-			{
+			{	
+				Console.WriteLine();
                 Console.WriteLine("Saldo insuficiente!");
                 return false;
             }
