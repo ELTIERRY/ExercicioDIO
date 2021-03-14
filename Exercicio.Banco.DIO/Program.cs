@@ -61,18 +61,15 @@ namespace Exercicio.Banco.DIO
         {
 			Console.WriteLine("Listar contas............................");
 
-			if (listBDContas.Count == 0)
+			if (ValidarConta(0))
 			{
-				Console.WriteLine("Nenhuma conta existente! \n");
-				
-			}else
-            {   
                 int numConta = 0;
                 foreach (Conta conta in listBDContas)
 			    {
 				    conta.listarContas(numConta);
                     numConta ++;
                 }
+				
 			}
           
         }
